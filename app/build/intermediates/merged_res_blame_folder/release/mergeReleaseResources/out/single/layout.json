@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_voice.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_voice.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/item_history.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_disease.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_disease.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_splash.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_fertilizer.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_fertilizer.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_weather.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_weather.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/item_language.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/item_language.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_history.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_main.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-mergeReleaseResources-80:/layout/activity_language.xml",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_language.xml"
+    }
+]

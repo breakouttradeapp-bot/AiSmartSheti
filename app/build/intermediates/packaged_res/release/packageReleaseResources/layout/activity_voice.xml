@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/btnBack" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary_green" app:title="🎤 AI Voice Assistant"
+            app:titleTextColor="@color/white" app:navigationIcon="@drawable/ic_back" app:navigationIconTint="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" android:padding="16dp" android:clipToPadding="false"
+        android:paddingBottom="80dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+            <!-- Mic area -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/primary_green" android:layout_marginBottom="16dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="24dp" android:gravity="center">
+
+                    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                        android:id="@+id/btnMic" android:layout_width="96dp" android:layout_height="96dp"
+                        android:backgroundTint="@color/white" app:icon="@drawable/ic_mic"
+                        app:iconTint="@color/primary_green" app:iconSize="40dp" android:text=""
+                        app:elevation="8dp" />
+
+                    <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="Tap mic to speak"
+                        android:textColor="@color/white" android:textSize="16sp" android:layout_marginTop="12dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Quick suggestion chips -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Quick Questions:" android:textStyle="bold" android:textColor="@color/primary_green"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.chip.ChipGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <com.google.android.material.chip.Chip android:id="@+id/chipSugarcane"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🌾 Sugarcane disease" style="@style/Widget.Material3.Chip.Assist" />
+                <com.google.android.material.chip.Chip android:id="@+id/chipWheat"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🌽 Wheat fertilizer" style="@style/Widget.Material3.Chip.Assist" />
+                <com.google.android.material.chip.Chip android:id="@+id/chipPest"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🐛 Organic pest control" style="@style/Widget.Material3.Chip.Assist" />
+                <com.google.android.material.chip.Chip android:id="@+id/chipSoil"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🌍 Improve soil" style="@style/Widget.Material3.Chip.Assist" />
+            </com.google.android.material.chip.ChipGroup>
+
+            <!-- Text input -->
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:hint="Type or speak your question..." android:layout_marginBottom="12dp">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etQuestion"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:minLines="2" android:inputType="textMultiLine" android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnAsk"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:text="🤖 Ask AI" android:textSize="16sp"
+                android:backgroundTint="@color/primary_green" android:layout_marginBottom="16dp" />
+
+            <ProgressBar android:id="@+id/progressBar" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:visibility="gone" android:layout_marginBottom="8dp" />
+
+            <!-- AI Response Card -->
+            <com.google.android.material.card.MaterialCardView android:id="@+id/responseCard"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp" android:visibility="gone">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🤖 AI Response" android:textStyle="bold"
+                        android:textColor="@color/primary_green" android:layout_marginBottom="8dp" />
+                    <TextView android:id="@+id/tvResponse" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:textSize="15sp"
+                        android:lineSpacingExtra="6dp" android:textColor="#333" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnSave"
+                        android:layout_width="match_parent" android:layout_height="48dp"
+                        android:text="💾 Save Answer" android:layout_marginTop="16dp"
+                        android:visibility="gone" style="@style/Widget.Material3.Button.OutlinedButton" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

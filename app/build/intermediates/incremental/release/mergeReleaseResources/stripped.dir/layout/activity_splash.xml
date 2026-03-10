@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_bg">
+
+    <!-- Blurred Farm Background -->
+    <ImageView
+        android:id="@+id/backgroundFarm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_farm_field"
+        android:alpha="0.4" />
+
+    <!-- Sun Overlay gradient -->
+    <View
+        android:id="@+id/sunOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_sun_overlay"
+        android:alpha="0" />
+
+    <!-- Lottie crop growing animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimation"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="120dp"
+        android:visibility="invisible"
+        app:lottie_rawRes="@raw/plant_growing"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false" />
+
+    <!-- Leaf particles overlay -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/leafParticles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:alpha="0"
+        app:lottie_rawRes="@raw/leaf_particles"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+
+    <!-- Logo and Text -->
+    <LinearLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:alpha="0">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_app_logo"
+            android:contentDescription="App Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AI Sheti Sahayak"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="12dp"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="6" />
+
+    </LinearLayout>
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/taglineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="🌾 Smart AI Farming Assistant"
+        android:textSize="16sp"
+        android:textColor="#CCFFFFFF"
+        android:fontFamily="@font/poppins_regular"
+        android:visibility="invisible"
+        android:alpha="0" />
+
+</FrameLayout>

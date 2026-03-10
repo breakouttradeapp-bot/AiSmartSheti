@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent_green">#A5D6A7</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="icon_bg_blue">#E3F2FD</color>
+    <color name="icon_bg_green">#E8F5E9</color>
+    <color name="icon_bg_orange">#FFF3E0</color>
+    <color name="icon_bg_purple">#F3E5F5</color>
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="secondary_green">#66BB6A</color>
+    <color name="splash_bg">#1B5E20</color>
+    <color name="surface_bg">#F1F8E9</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_light">#9E9E9E</color>
+    <color name="text_medium">#616161</color>
+    <color name="white">#FFFFFF</color>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="analyze">Analyze</string>
+    <string name="app_name">AI Sheti Sahayak</string>
+    <string name="ask_question">Ask a Question</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">4eeecf8a9aac444189a23cf599352aff</string>
+    <string name="crop_disease_scan">Crop Disease Scan</string>
+    <string name="error_location">Cannot get location. Enable GPS.</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="fertilizer_guide">Fertilizer Guide</string>
+    <string name="gcm_defaultSenderId" translatable="false">752989832959</string>
+    <string name="get_advice">Get Advice</string>
+    <string name="google_api_key" translatable="false">AIzaSyBdcvJP3evlDRK-TgN-ieMUNyF-TxmimfU</string>
+    <string name="google_app_id" translatable="false">1:752989832959:android:7fad1fe37728a254036eca</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBdcvJP3evlDRK-TgN-ieMUNyF-TxmimfU</string>
+    <string name="google_storage_bucket" translatable="false">aishetisahayak.firebasestorage.app</string>
+    <string name="history">History</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="loading">Loading…</string>
+    <string name="privacy_policy_url">https://your-website.com/privacy-policy</string>
+    <string name="project_id" translatable="false">aishetisahayak</string>
+    <string name="rewarded_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="save">Save</string>
+    <string name="saved_advice">Saved Advice</string>
+    <string name="select_language">Select Your Language</string>
+    <string name="tagline">Smart AI Farming Assistant</string>
+    <string name="tap_to_speak">Tap to speak</string>
+    <string name="voice_ai">AI Voice Assistant</string>
+    <string name="weather_advice">Weather Advice</string>
+    <style name="Theme.AIShetiSahayak" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+        <item name="android:windowBackground">@color/surface_bg</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="Theme.AIShetiSahayak.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.AIShetiSahayak.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_app_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.AIShetiSahayak</item>
+    </style>
+    <style name="Widget.Sheti.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="Widget.Sheti.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+</resources>
