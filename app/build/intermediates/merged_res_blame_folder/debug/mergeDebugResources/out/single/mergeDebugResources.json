@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_bg_card_icon_orange.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/bg_card_icon_orange.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_voice.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_voice.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_main.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_ic_history.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_ic_app_logo.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/ic_app_logo.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_language.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_language.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_fertilizer.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_fertilizer.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_ic_mic.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/raw_plant_growing.json.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/raw/plant_growing.json"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_ic_back.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/xml_data_extraction_rules.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/font_poppins_regular.ttf.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_bg_card_icon_green.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/bg_card_icon_green.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_bg_card_icon_blue.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/bg_card_icon_blue.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/font_poppins_bold.ttf.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_disease.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_disease.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/xml_backup_rules.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_splash.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_bg_card_icon_purple.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/bg_card_icon_purple.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_item_history.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_weather.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_weather.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_bg_icon_button.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/bg_icon_button.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/xml_file_paths.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_item_language.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/item_language.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/raw_leaf_particles.json.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/raw/leaf_particles.json"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_gradient_sun_overlay.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/gradient_sun_overlay.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_bg_farm_field.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/bg_farm_field.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/layout_activity_history.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.aisheti.sahayak.app-debug-81:/drawable_bg_dropdown.xml.flat",
+        "source": "com.aisheti.sahayak.app-main-83:/drawable/bg_dropdown.xml"
+    }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analyze">विश्लेषण करा</string>
+    <string name="app_name">AI शेती सहायक</string>
+    <string name="ask_question">प्रश्न विचारा</string>
+    <string name="crop_disease_scan">पीक रोग तपासणी</string>
+    <string name="error_location">स्थान मिळवता येत नाही. GPS सक्षम करा.</string>
+    <string name="error_network">नेटवर्क त्रुटी. कनेक्शन तपासा.</string>
+    <string name="fertilizer_guide">खत मार्गदर्शिका</string>
+    <string name="get_advice">सल्ला मिळवा</string>
+    <string name="history">इतिहास</string>
+    <string name="loading">लोड होत आहे…</string>
+    <string name="save">जतन करा</string>
+    <string name="saved_advice">जतन केलेला सल्ला</string>
+    <string name="select_language">तुमची भाषा निवडा</string>
+    <string name="tagline">स्मार्ट AI शेती सहाय्यक</string>
+    <string name="tap_to_speak">बोलण्यासाठी टॅप करा</string>
+    <string name="voice_ai">AI आवाज सहाय्यक</string>
+    <string name="weather_advice">हवामान सल्ला</string>
+</resources>
