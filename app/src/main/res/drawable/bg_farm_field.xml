@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder background for splash screen.
+     Replace with an actual blurred sugarcane field image (bg_farm_field.jpg)
+     placed in res/drawable/ for production.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="#1B5E20"
+        android:centerColor="#2E7D32"
+        android:endColor="#388E3C" />
+</shape>

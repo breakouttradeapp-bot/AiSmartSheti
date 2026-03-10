@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="secondary_green">#66BB6A</color>
+    <color name="accent_green">#A5D6A7</color>
+    <color name="splash_bg">#1B5E20</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_medium">#616161</color>
+    <color name="text_light">#9E9E9E</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="surface_bg">#F1F8E9</color>
+
+    <!-- Card icon backgrounds -->
+    <color name="icon_bg_green">#E8F5E9</color>
+    <color name="icon_bg_blue">#E3F2FD</color>
+    <color name="icon_bg_orange">#FFF3E0</color>
+    <color name="icon_bg_purple">#F3E5F5</color>
+</resources>

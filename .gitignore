@@ -1,0 +1,16 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local config
+local.properties
+
+# Crash dumps
+*.hprof
+
+# Mapping
+mapping.txt
+
+# OS files
+.DS_Store
